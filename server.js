@@ -9,3 +9,5 @@ const PORT = process.env.PORT || 9000;
 app.use(`${prefix}/${version}`, indexRouter);
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
+module.exports = app;
