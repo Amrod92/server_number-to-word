@@ -10,9 +10,9 @@ The backend provides endpoint to receive (digits) and send (words) to consume, a
 
 ## API Reference 🥼
 
-#### GET example
-
 The server is running at `localhost:9000`. You can change it anytime by going to `server.js` and change the variable `const PORT`.
+
+#### GET example
 
 ```http
   GET /api/v1/
